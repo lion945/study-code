@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Run / Debug C",
             "type": "cppdbg",
@@ -11,7 +12,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "preLaunchTask": "build (c)",
+            "preLaunchTask": "C/C++: gcc.exe build active file",
             "windows": {
                 "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "MIMode": "gdb",
