@@ -7,12 +7,13 @@ int main(void) {
         scanf("%f", &zahl1);
         scanf(" %c", &operation);
         scanf(" %f", &zahl2);
-        printf("%c", operation);
+
         if (operation == '+') {
             ergebnis = zahl1 + zahl2;
         }
         else if (operation == '/' && zahl2 == 0){
             printf("Nicht durch 0 teilen");
+            return 1;
         }
         else if (operation == '-'){
             ergebnis = zahl1 -zahl2;
